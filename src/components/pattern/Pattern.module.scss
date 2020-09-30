@@ -1,0 +1,35 @@
+.Input {
+  display: inline-block;
+  width: 200px;
+  line-height: 20px;
+  padding: 10px 10px;
+  text-align: right;
+  border: 5px solid #555;
+  // font-family: "Architects Daughter", cursive;
+  font-size: calc(10px + 1vw);
+
+  :active {
+    outline: red;
+    outline-width: 0px;
+    background-color: blue;
+  }
+}
+
+.Match {
+  border-color: green;
+}
+
+.NotMatch {
+  border-color: red;
+}
+
+.Normal {
+  border-color: #555;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
